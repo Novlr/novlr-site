@@ -1,0 +1,18 @@
+html
+	head
+		include includes/head
+	body
+		include includes/header
+		.container
+			.wrapper
+				h1 #{h1}
+				h2 #{intro}
+				if(path==='/about') 
+					include includes/about.jade
+				else if(path==='/features') 
+					include includes/features.jade
+				else if(path==='/pricing') 
+					include includes/pricing.jade
+
+		footer
+			p Novlr: Giving Novel writers no more excuses
