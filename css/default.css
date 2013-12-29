@@ -11,29 +11,42 @@ header {
 	border-bottom:1px solid #d9d9d9
 }
 header .wrapper {
-	width:1200px;
+	width: 90%;
 	margin:0 auto;
 	padding-top:10px;
 }
 header img {
 	float:left;
 	width:100px;
-	padding-top:6px
-}
+	padding-top: 0px;}
 /* MENU */
 .menu {
 	float:right;
 	width:auto;
+	
+	margin-right: 2%;
 }
+
+.menu ul {	
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+margin-top: 0.5em;
+
+}
+
 .menu ul li {
 	display:inline;
-	padding:8px 20px;
+	padding: 8px 20px;
 }
 .menu ul li a {
 	color:#858585;
 	text-decoration:none;
-	font-family:Oxygen;
-	font-size:20px;
+	font-family: Roboto;
+	font-size:1.1em;
+	font-weight: lighter;
 }
 .menu ul li a:hover {
 	color:#000;
@@ -53,7 +66,7 @@ margin-top: 30px;
 .intro-box h1 {
 font-family: Roboto;
 color: #444;
-font-weight: normal;
+font-weight: 100;
 display: block;
 margin-bottom: 50px;
 }
@@ -69,6 +82,9 @@ margin-bottom: 50px;
 }
 .container.main {
 	background-image: url('/images/banner1.jpg');
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: 60% 10%;
 }
 
 .container .wrapper {
@@ -82,6 +98,10 @@ padding: 180px 60px;
 text-align: center;
 }
 
+.container.main a.button:hover {
+	background-color: #FFF;
+}
+
 /* Headers and paragraphs */
 
 
@@ -90,7 +110,7 @@ text-align: center;
 footer {
 	position: fixed;
 	bottom: 0;
-	height: 60px;
+	/* height: 60px; */
 	background: #444;
 	color: #FFF;
 	font-family: oxygen;
@@ -99,5 +119,9 @@ footer {
 footer p {
 	width: 1200px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 1em;
+	height: 1em;
+	font-size: 0.9em;
+	font-family: Roboto;
+	font-weight: lighter;
 }
