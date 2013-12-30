@@ -1,11 +1,26 @@
 html
 	head
 		include includes/head
-	body
-		include includes/header
+		
+	if(path==='/about')
+		.fullimagewrapabout
+			include includes/header
+			h1 #{h1}
+	else if(path==='/features')
+		.fullimagewrapfeatures
+			include includes/header
+			h1 #{h1}
+	else if(path==='/pricing')
+		.fullimagewrappricing
+			include includes/header
+			h1 #{h1}
+	else
+		.fullimagewrap
+			include includes/header
+	body		
 		.container
 			.wrapper
-				h1 #{h1}
+				
 				h2 #{intro}
 				if(path==='/about') 
 					include includes/about.jade
