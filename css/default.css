@@ -6,7 +6,7 @@ body {
 }
 
 .fullimagewraphome {
-	background: url('/images/novlrbackground.jpg');
+	background: url('/images/novlrbackgroundlight.jpg');
 	background-size: cover;
 	position: absolute;
 	background-repeat: no-repeat;
@@ -16,14 +16,14 @@ body {
 }
 
 .fullimagewrapfeatures {
-	background: url('http://farm2.staticflickr.com/1219/936394705_328b4ee18b_o.jpg');
+	background: url('/images/featuresbackgroundlight.jpg');
 	background-size: 100%;
 	height: 30em;
 	background-position-y: 48%;
 }
 
 .fullimagewrapabout {
-	background: url('/images/aboutbackground.jpg');
+	background: url('/images/aboutbackgroundlight.jpg');
 	background-size: 100%;
 	background-position-y: 73%;
 	background-repeat: no-repeat;
@@ -32,12 +32,13 @@ body {
 }
 
 .fullimagewrappricing {
-	background: url('http://farm5.staticflickr.com/4081/4785035201_49acd0489e_o.jpg');
+	background: url('/images/pricingbackgroundlight.jpg');
 	background-size: 100%;
-	background-position: 0% 63%;
+	background-position: 0% 30%;
 	background-repeat: no-repeat;
 	height: 30em;
 }
+
 /* HEADER */
 
 header {
