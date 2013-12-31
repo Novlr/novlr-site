@@ -9,7 +9,7 @@ app.set('view engine', 'jade')
 app.set('views', './templates')
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/images', express.static(__dirname + '/images'));
-app.use(express.favicon(__dirname + 'favicon.ico')); 
+app.use(express.favicon(__dirname + '/favicon.ico')); 
 
 // Route each of the get requests
 app.get('/', function(req, res) {

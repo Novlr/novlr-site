@@ -87,6 +87,10 @@ header img {
 
 /* homepage */
 
+.fullimagewraphome footer {
+	display:none;
+}
+
 .container.main a.button {
 	font-family: Roboto;
 	text-decoration: none;
@@ -106,7 +110,7 @@ h1 {
 	width: 100%;
 	text-align: center;
 	padding: 0em 0 1em;
-	margin: 26% 0 0 0;
+	margin: 20% 0 0 0;
 	color: #FFF;
 }
 
