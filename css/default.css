@@ -92,15 +92,26 @@ header img {
 	display:none;
 }
 
+.fullimagewraphome .container .main {
+	float: left;
+	position: absolute;
+	bottom: 1em;
+	width: 30%;
+	right: 7em;
+}
+
+
+
 .container.main a.button {
 	font-family: Roboto;
 	text-decoration: none;
 	color: #444;
-	padding: 10px 40px 0px;
+	padding: 10px 40px 10px;
 	border: 1px solid #444;
 	margin-top: 30px;
-	background: white;
-	font-weight: 300;
+	background: #FFF;
+	font-weight: 100;
+	font-size: 0.8em;
 }
 
 
@@ -133,7 +144,6 @@ h1 {
 }*/
 
 .container .wrapper {
-	width: 84%;
 	margin: 0 auto;
 	padding: 3% 8%;
 	font-size: 1.3em;
@@ -143,14 +153,19 @@ h1 {
 	line-height:1.4em;
 }
 
-.intro-box {
-	width: 30%;
-	/* float: left; */
-	padding: 5% 5% 0;
-	text-align: center;
-	margin: 20% 0 0 49%;
-	line-height: 3em;
+.fullimagewraphome .container .wrapper {
+	overflow: hidden;
+	float: left;
 	position: absolute;
+	bottom: 1em;
+	right: 0;
+	width: 30%
+}
+
+.intro-box {
+	text-align: center;
+	line-height: 3em;
+	max-width: 20em;
 }
 
 .container.main a.button:hover {
