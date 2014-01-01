@@ -1,9 +1,9 @@
 {
   "name": "Novlr",
+  "subdomain": "novlr",
   "domains": [
  	"novlr.org",
  	"www.novlr.org"
- 	
  	],
   "scripts": {
     "start": "node index.js"
