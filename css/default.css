@@ -92,6 +92,7 @@ header img {
 	/* display:none; */
 	position: absolute;
 	background: none;
+	bottom: 0;
 }
 
 .fullimagewraphome .container .main {
