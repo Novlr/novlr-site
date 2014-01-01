@@ -89,7 +89,9 @@ header img {
 /* homepage */
 
 .fullimagewraphome footer {
-	display:none;
+	/* display:none; */
+	position: absolute;
+	background: none;
 }
 
 .fullimagewraphome .container .main {
@@ -209,20 +211,47 @@ h1 {
 /* FOOTER */
 
 footer {
-	bottom: 0;
-	height: 4em;
-	background: #444;
-	color: #FFF;
-	font-family: oxygen;
-	width: 100%;
+	height: 2.5em;
+background: #444;
+color: #FFF;
+font-family: oxygen;
+width: 100%;
+position: absolute;
+padding: 0.5em 0 0;
 }
 
 footer p {
-	width: 90%;
-	margin: 0 auto;
-	padding: 1.5em 0 1em;
-	height: 1em;
-	font-size: 0.9em;
-	font-family: Roboto;
-	font-weight: lighter;
+margin: 0 auto;
+padding: 0.5em 0 1em 4em;
+height: 1em;
+font-size: 0.9em;
+font-family: Roboto;
+font-weight: lighter;
+float: left;
+}
+
+.fullimagewraphome footer {
+position: absolute;
+background: none;
+}
+
+.socmedia {
+margin-left: 4em;
+float: left;
+}
+
+.socmediafacebook {
+float: left;
+padding-left: 0.3em;
+}
+
+
+
+.fullimagewraphome footer p {
+display: none;
+}
+
+.socmediatwitter {
+float: left;
+padding-left: 0.5em;
 }
