@@ -22,13 +22,14 @@ color: #89EEFE;
 
 .fullimagewrapfeatures {
 	background: url('/images/featuresbackgroundlight.jpg');
-	background-size: 100%;
+	background-size: 138%;
 	height: 30em;
-	background-position-y: 48%;
+	background-position-y: 82%;
+	background-position-x: 30%;
 }
 
 .fullimagewrapabout {
-	background: url('/images/aboutbackgroundlight.jpg');
+	background: url('/images/aboutbackgroundlight2.jpg');
 	background-size: 100%;
 	background-position-y: 73%;
 	background-repeat: no-repeat;
@@ -38,8 +39,8 @@ color: #89EEFE;
 
 .fullimagewrappricing {
 	background: url('/images/pricingbackgroundlight.jpg');
-	background-size: 100%;
-	background-position: 0% 30%;
+	background-size: 138%;
+	background-position: 46% 23%;
 	background-repeat: no-repeat;
 	height: 30em;
 }
@@ -129,8 +130,8 @@ h1 {
 	font-size: 4em;
 	width: 100%;
 	text-align: center;
-	padding: 0em 0 1em;
-	margin: 6% 0 0 0;
+	padding: 0em 0 0.5em;
+	margin: 12% 0 0 0;
 	color: #FFF;
 }
 
