@@ -88,7 +88,7 @@ header img {
 	font-weight: lighter;
 }
 .menu ul li a:hover {
-	color:#000;
+	color:#89EEFE;
 }
 
 /* homepage */
@@ -113,13 +113,13 @@ header img {
 .container.main a.button {
 	font-family: Roboto;
 	text-decoration: none;
-	color: #444;
+	color: #fff;
 	padding: 10px 40px 10px;
-	border: 1px solid #444;
 	margin-top: 30px;
-	background: #FFF;
-	font-weight: 100;
+	background: none;
+	font-weight: 300;
 	font-size: 0.8em;
+	text-transform: uppercase;
 }
 
 
@@ -138,17 +138,31 @@ h1 {
 margin: 15% 0 0 0;
 }
 
-.fullimagewrap
 
 .intro-box h1 {
-	display: block;
-	margin: 0.5em 0 0.5em 0;
-	padding: 0;
-	font-size: 200%;
-	line-height: 1em;
-	font-weight: 100;
+margin-top: 27%;
+line-height: 1em;
+font-size: 3em;
+text-align: left;
+padding: 0;
+margin-bottom: 0.1em;
 }
 
+.intro-box h2 {
+color: #FFF;
+font-weight: 100;
+margin-top: 0em;
+padding-left: 0.1em;
+margin-bottom: 0.2em;
+line-height: 1em;
+}
+
+.container.main .intro-box a{
+background: #89EEFE;
+}
+.container.main .intro-box a:hover {
+background: #444;
+}
 
 /* BODY */
 
@@ -168,22 +182,14 @@ margin: 15% 0 0 0;
 }
 
 .fullimagewraphome .container .wrapper {
-	overflow: hidden;
-	float: left;
-	position: absolute;
-	bottom: 1em;
-	right: 0;
-	width: 30%
+	padding: 3% 6%;
 }
+
 
 .intro-box {
-	text-align: center;
-	line-height: 3em;
-	max-width: 20em;
-}
-
-.container.main a.button:hover {
-	background-color: #89eefe;
+text-align: left;
+line-height: 3em;
+margin: 0 auto;
 }
 
 .next_page {

@@ -13,7 +13,7 @@ app.use(express.favicon(__dirname + '/favicon.ico'));
 
 // Route each of the get requests
 app.get('/', function(req, res) {
-  res.render('index-home', {title: 'Welcome to Novlr', subheading: 'The best way to write your novel.', path: req.path})
+  res.render('index-home', {title: 'Welcome to Novlr', subheading: 'Novel writing. Simply.', path: req.path})
 })
 
 app.get('/about', function(req, res) {
