@@ -1,10 +1,10 @@
 {
   "name": "Novlr",
   "subdomain": "novlr",
-  "domains": {
- 	"novlr.org",
- 	"www.novlr.org"
- 	},
+  "domains": [
+    "novlr.org",
+    "www.novlr.org"
+  ],
   "scripts": {
     "start": "node index.js"
   },
@@ -15,7 +15,7 @@
     "formidable": "1.0.x",
     "jade": "1.x"
   },
-  "version": "0.0.0-21",
+  "version": "0.0.0-40",
   "engines": {
     "node": "0.10.x"
   }
