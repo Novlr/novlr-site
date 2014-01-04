@@ -5,6 +5,11 @@ body {
 	height: 100%;
 }
 
+a {
+text-decoration: none;
+color: #89EEFE;
+}
+
 .fullimagewraphome {
 	background: url('/images/novlrbackgroundlight.jpg');
 	background-size: cover;
@@ -125,9 +130,15 @@ h1 {
 	width: 100%;
 	text-align: center;
 	padding: 0em 0 1em;
-	margin: 20% 0 0 0;
+	margin: 6% 0 0 0;
 	color: #FFF;
 }
+
+.fullimagewrapfeatures h1 {
+margin: 15% 0 0 0;
+}
+
+.fullimagewrap
 
 .intro-box h1 {
 	display: block;
@@ -253,11 +264,26 @@ footer p {
 	display: none;
 }
 
+
 .socmediatwitter {
 	float: left;
 	padding-left: 0.5em;
 }
 
+.tryit {
+width: 6em;
+margin: 0 auto;
+border: 2px solid #FFF;
+padding: 1em 4em;
+text-transform: uppercase;
+color: #FFF;
+font-family: Roboto;
+}
+
+.tryit:hover {
+background: #FFF;
+color: #000;
+}
 
 /* MEDIA QUERY STUFF */
 

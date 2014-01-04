@@ -36,7 +36,7 @@ app.get('/features', function(req, res) {
 app.get('/pricing', function(req, res) {
   res.render('index', {
   						title: 'Free Novel Writing Software', 
-  						path: req.path, h1: 'Try our novel writing platform for free.', 
+  						path: req.path, h1: 'Novel writing. Simply.', 
   						h2: 'the intro to pricing', 
   						body: 'includes/pricing.jade'
   						})
