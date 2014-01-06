@@ -42,3 +42,7 @@ app.get('/pricing', function(req, res) {
   						})
 })
 app.listen(8889)
+
+app.get('*', function(req, res){
+  res.render('404.jade')
+});
