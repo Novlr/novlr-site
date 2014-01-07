@@ -43,6 +43,7 @@ app.get('/pricing', function(req, res) {
 })
 app.listen(8889)
 
+// Always set this as the last get request, any pages not defined will give this
 app.get('*', function(req, res){
   res.render('404.jade')
 });
