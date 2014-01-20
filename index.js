@@ -25,6 +25,10 @@ app.get('/about', function(req, res) {
   						})
 })
 
+app.get('/blog', function(req, res) {
+  res.redirect('http://blog.novlr.org');
+});
+
 app.get('/features', function(req, res) {
   res.render('index', {
   						title: 'Novlr makes novel writing simple.', 
