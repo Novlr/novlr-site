@@ -308,6 +308,9 @@ margin: 20% auto 0;
 line-height: 1.2em;
 }
 
+header img {
+margin-top: 0.5em;
+}
 
 /* MEDIA QUERY STUFF */
 
