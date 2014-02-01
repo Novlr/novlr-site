@@ -7,7 +7,7 @@ body {
 
 a {
 text-decoration: none;
-color: #89EEFE;
+color: #ABD1E2;
 }
 
 .fullimagewraphome {
@@ -159,10 +159,12 @@ line-height: 1em;
 }
 
 .container.main .intro-box a{
-background: #89EEFE;
+color: #fff;
+border:1px solid #fff;
 }
 .container.main .intro-box a:hover {
-background: #444;
+background: #272933;
+color:#fff;
 }
 
 /* BODY */
@@ -289,8 +291,8 @@ font-family: Roboto;
 }
 
 .tryit:hover {
-background: #FFF;
-color: #000;
+background:#272933;
+color: #fff;
 }
 
 .fullimagewrap404  {
@@ -316,6 +318,6 @@ margin-top: 0.5em;
 
 @media (min-width: 1700px) {
 	h1 {
-	margin-top: 15%;
+	margin-top: 12%;
 	}
 }
