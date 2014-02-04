@@ -11,13 +11,9 @@ color: #ABD1E2;
 }
 
 .fullimagewraphome {
-	background: url('/images/novlrbackgroundlight.jpg');
+	background: url('/images/pricingbackgroundlight.jpg');
 	background-size: cover;
-	position: absolute;
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
-	background-attachment: fixed;
 }
 
 .fullimagewrapfeatures {
@@ -48,23 +44,25 @@ color: #ABD1E2;
 /* HEADER */
 
 header {
-	height:2em;
-	/* border-bottom:1px solid #d9d9d9
- */}
+height: 6em;
+background: #272933;
+}
 header .wrapper {
 	width: 90%;
 	margin:0 auto;
-	padding-top:10px;
+	padding-top:15px;
 }
 header img {
 	float:left;
 	width: 165px;
-	padding-top: 0px;}
+	padding-top: 0px;
+	}
+	
 /* MENU */
 .menu {
 	float:right;
 	width:auto;
-	
+	margin-top: 10px;
 	margin-right: 2%;
 }
 
@@ -88,16 +86,15 @@ header img {
 	font-size: 1.4em;
 	font-weight: lighter;
 }
+
 .menu ul li a:hover {
-	color:#89EEFE;
+color:#ABD1E2;
 }
 
 /* homepage */
 
 .fullimagewraphome footer {
 	/* display:none; */
-	position: absolute;
-	background: none;
 	bottom: 0;
 }
 
@@ -209,7 +206,7 @@ margin: 0 auto;
 }
 
 .next_page a:hover {
-	color: #89eefe;
+color:#ABD1E2;
 }
 
 
@@ -234,7 +231,6 @@ margin: 0 auto;
 
 footer {
 	height: 2.5em;
-	background: #444;
 	color: #FFF;
 	font-family: oxygen;
 	width: 100%;
@@ -253,10 +249,6 @@ footer p {
 	float: left;
 }
 
-.fullimagewraphome footer {
-	position: absolute;
-	background: none;
-}
 
 .socmedia {
 	margin-left: 4em;
