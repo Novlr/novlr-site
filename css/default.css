@@ -1,5 +1,8 @@
 /* Default styles */
 
+html {
+height: 100%;
+}
 body {
 	margin:0 ;
 	height: 100%;
@@ -10,10 +13,17 @@ text-decoration: none;
 color: #ABD1E2;
 }
 
+h2 {
+font-weight: normal;
+}
+
 .fullimagewraphome {
-	background: url('/images/pricingbackgroundlight.jpg');
+	background: url('/images/handspurple.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100%;
+	background-position-y: 170px;
+	background-color: #272933;
 }
 
 .fullimagewrapfeatures {
@@ -96,6 +106,7 @@ color:#ABD1E2;
 .fullimagewraphome footer {
 	/* display:none; */
 	bottom: 0;
+	position: fixed;
 }
 
 .fullimagewraphome .container .main {
@@ -112,12 +123,13 @@ color:#ABD1E2;
 	font-family: Roboto;
 	text-decoration: none;
 	color: #fff;
-	padding: 10px 40px 10px;
-	margin-top: 30px;
+	padding: 13px 70px 15px;
+	margin-top: 37px;
 	background: none;
 	font-weight: 300;
 	font-size: 0.8em;
 	text-transform: uppercase;
+	margin-left: 59px;
 }
 
 
@@ -129,7 +141,7 @@ h1 {
 	text-align: center;
 	padding: 0em 0 0.5em;
 	margin: 12% 0 0 0;
-	color: #FFF;
+	color: #fff;
 }
 
 .fullimagewrapfeatures h1 {
@@ -138,30 +150,34 @@ margin: 15% 0 0 0;
 
 
 .intro-box h1 {
-margin-top: 27%;
+margin-top: 3%;
 line-height: 1em;
-font-size: 3em;
+font-size: 2em;
 text-align: left;
 padding: 0;
-margin-bottom: 0.1em;
+margin-bottom: 20px;
+/* display: none; */
 }
 
 .intro-box h2 {
-color: #FFF;
+color: #fff;
 font-weight: 100;
 margin-top: 0em;
 padding-left: 0.1em;
 margin-bottom: 0.2em;
 line-height: 1em;
+display: none;
 }
 
 .container.main .intro-box a{
 color: #fff;
-border:1px solid #fff;
+border: 1px solid #fff;
 }
 .container.main .intro-box a:hover {
-background: #272933;
-color:#fff;
+background: #fff;
+color: #444;
+/* font-weight: bold; */
+border: 1px solid white;
 }
 
 /* BODY */
@@ -175,14 +191,14 @@ color:#fff;
 	margin: 0 auto;
 	padding: 3% 8%;
 	font-size: 1.3em;
-	font-family: Oxygen;
+	font-family: Roboto;
 	font-weight: lighter;
 	color: #444;
 	line-height:1.4em;
 }
 
 .fullimagewraphome .container .wrapper {
-	padding: 3% 6%;
+	padding: 5% 6% 3% 18%;
 }
 
 
@@ -237,6 +253,8 @@ footer {
 	position: relative;
 	padding: 0.5em 0 0;
 	bottom: 0;
+	background: #272933;
+	display: none;
 }
 
 footer p {
