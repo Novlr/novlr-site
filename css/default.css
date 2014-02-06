@@ -14,20 +14,20 @@ color: #ABD1E2;
 }
 
 h2 {
-font-weight: normal;
+font-weight: 100;
 }
 
 .fullimagewraphome {
-	background: url('/images/handspurple.jpg');
+	background: url('/images/cafetwo1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	background-position-y: 170px;
+	background-position-x: -69px;
 	background-color: #272933;
 }
 
 .fullimagewrapfeatures {
-	background: url('/images/featuresbackgroundlight.jpg');
+	background: #272933;
 	background-size: 138%;
 	height: 30em;
 	background-position-y: 82%;
@@ -35,7 +35,7 @@ font-weight: normal;
 }
 
 .fullimagewrapabout {
-	background: url('/images/aboutbackgroundlight2.jpg');
+	background: #272933;
 	background-size: 100%;
 	background-position-y: 73%;
 	background-repeat: no-repeat;
@@ -129,7 +129,7 @@ color:#ABD1E2;
 	font-weight: 300;
 	font-size: 0.8em;
 	text-transform: uppercase;
-	margin-left: 59px;
+	margin-right: 62px;
 }
 
 
@@ -140,12 +140,12 @@ h1 {
 	width: 100%;
 	text-align: center;
 	padding: 0em 0 0.5em;
-	margin: 12% 0 0 0;
+	margin: 7% 0 0 0;
 	color: #fff;
 }
 
 .fullimagewrapfeatures h1 {
-margin: 15% 0 0 0;
+margin: 7% 0 0 0;
 }
 
 
@@ -153,7 +153,7 @@ margin: 15% 0 0 0;
 margin-top: 3%;
 line-height: 1em;
 font-size: 2em;
-text-align: left;
+text-align: right;
 padding: 0;
 margin-bottom: 20px;
 /* display: none; */
@@ -198,12 +198,12 @@ border: 1px solid white;
 }
 
 .fullimagewraphome .container .wrapper {
-	padding: 5% 6% 3% 18%;
+	padding: 8% 6% 3% 18%;
 }
 
 
 .intro-box {
-text-align: left;
+text-align: right;
 line-height: 3em;
 margin: 0 auto;
 }
@@ -254,7 +254,6 @@ footer {
 	padding: 0.5em 0 0;
 	bottom: 0;
 	background: #272933;
-	display: none;
 }
 
 footer p {
@@ -284,6 +283,9 @@ footer p {
 	display: none;
 }
 
+.fullimagewraphome footer {
+	background: none;
+	}
 
 .socmediatwitter {
 	float: left;
