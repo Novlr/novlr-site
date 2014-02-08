@@ -302,9 +302,10 @@ color: #FFF;
 font-family: Roboto;
 }
 
+
 .tryit:hover {
-background:#272933;
-color: #fff;
+background: #FFF;
+color: #444;
 }
 
 .fullimagewrap404  {
