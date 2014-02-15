@@ -32,7 +32,7 @@ app.get('/blog', function(req, res) {
 app.get('/features', function(req, res) {
   res.render('index', {
   						title: 'Novlr makes novel writing simple.', 
-  						path: req.path, h1: 'We make novel writing simple.', 
+  						path: req.path, h1: 'All the faff handled', 
   						h2: 'the intro to features', 
   						body: 'includes/features.jade'
   						})
