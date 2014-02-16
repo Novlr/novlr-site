@@ -18,11 +18,10 @@ font-weight: 100;
 }
 
 .fullimagewraphome {
-	background: url('/images/desktop.jpg');
+	background: url('/images/desktopsmall.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	background-color: #272933;
 	background-position-x: center;
 }
 
