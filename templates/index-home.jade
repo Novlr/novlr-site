@@ -2,11 +2,21 @@ doctype html
 html
 	head
 		include includes/head
+		script(type='text/javascript')
+					$(function(){
+					$(".typing").typed({
+					strings: ["First sentence.", "Second sentence."],
+					typeSpeed: 30, // typing speed
+					backDelay: 500, // pause before backspacing
+					callback: function(){ } // call function after typing is done
+					});
+					});
 	body
 	.fullimagewraphome
 		include includes/header
 		.container.main
 			.wrapper
+				.typing
 				.intro-box
 					h1 #{subheading}
 					h2 Novlr is the best place to write your novel.

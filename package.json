@@ -13,7 +13,9 @@
     "path": "0.4.x",
     "forms": "0.3.x",
     "formidable": "1.0.x",
-    "jade": "1.x"
+    "jade": "1.x",
+    "node-static": "~0.7.3",
+    "http": "0.0.0"
   },
   "version": "0.0.0-40",
   "engines": {
