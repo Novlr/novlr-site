@@ -10,6 +10,8 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="./js/analytics.js"></script>
 		<script src="./js/typed.js"></script>	
+		<script src="./js/texttyped.js"></script>
+			
 	</head>
 	<body>
 		<script>
@@ -23,7 +25,33 @@
         		callback: function(){ } // call function after typing is done
       			});
   			});
-		</script>
+  			</script>
+  			
+  		<script>
+  			$(function(){
+      			$(".texttyping").texttyped({
+        		strings: ["It makes it so nice to write you won't be able to stop yourself, it's a bit like heroin I suppose."],
+        		typeSpeed: 40, // typing speed
+        		backDelay: 50000, // pause before backspacing
+        		loop: true, // loop on or off (true or false)
+        		loopCount: 1, // number of loops, false = infinite
+        		callback: function(){ } // call function after typing is done
+      			});
+  			});
+  			</script>
+  		<script>	
+  			$(function(){
+      			$(".texttypingtwo").texttyped({
+        		strings: ["keeps your novel safe, so even you can’t lose it"],
+        		typeSpeed: 40, // typing speed
+        		backDelay: 50000, // pause before backspacing
+        		loop: true, // loop on or off (true or false)
+        		loopCount: 1, // number of loops, false = infinite
+        		callback: function(){ } // call function after typing is done
+      			});
+  			});
+  			</script>
+  	
 		<div class="fullimagewrap">
 			<header>
 				<div class="wrapper">
@@ -46,18 +74,20 @@
 					</div>
 				</div>
 			</header>
-			<h1>Novlr <span class="typing"></span></h1>
+			<h1>How's that novel of yours coming?</h1>
+			<h2 id="secondsentence">Now there's no excuse.</h2>
 			<a href="http://blog.novlr.org/be-the-first-to-try-novlr/"><div class="tryit"><span>Get your invite</span></div></a>
 		</div>
 
 		<div class="container grey">
 			<div class="wrapper">
-				<h3>Some people like to say, "There's a novel in everyone". There isn't. Most people don't have the patience, perseverance and dedication required to write a book. But you do. So we'll take care of the formatting, backups, word counts etc and you can concentrate on the words.</h3>
+				<p>Some people like to say, "There's a novel in everyone". There isn't. Most people don't have the patience and dedication required to write a book.<br><br><span> But you do.</span><br> <br>So we'll take care of the formatting, backups, word counts etc and you can concentrate on the words.</p>
 			</div>
 		</div>
 		<div class="container">
 			<div class="wrapper">
-				<div class="product_example"><img src="images/nov-wireTM.jpg"></div>
+				<h3>Why Novlr?</h3>
+				<div class="product_example"><span class="texttyping"></span><br></div>
 				<div class="promoblock">
 					<h3>You won't lose work. Ever.</h3>
 					<p>We've all felt the pain of loss. Pain should generally be avoided. So we save everything, all the time, without you even needing to think about it. </p>

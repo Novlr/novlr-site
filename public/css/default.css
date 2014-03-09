@@ -25,7 +25,7 @@ color: #777;
 	background-position-y: 73%;
 	background-repeat: no-repeat;
 	background-position-x: 23%;
-	height: 45em;
+	height: 38em;
 }
 
 /* HEADER */
@@ -138,7 +138,7 @@ display: none;
 	font-family: Oxygen;
 	font-weight: lighter;
 	color: #444;
-	line-height:1.4em;
+	line-height:1.2em;
 	text-align:center;
 }
 .container.grey {
@@ -184,6 +184,20 @@ color:#ABD1E2;
 
 
 /* About page */
+
+.product_example {
+background-image: url(/images/nov-wireTMv3.jpg);
+min-height: 620px;
+margin-left: -40px;
+margin-right: -57px;
+padding-top: 135px;
+text-align: left;
+padding-left: 80px;
+padding-right: 80px;
+color: #444;
+font-size: 0.8em;
+background-repeat: no-repeat;
+}
 
 .product_example img {
 	width: 100%;
@@ -325,6 +339,14 @@ color: #444;
 	color:#ABD1E2;
 }
 
+h3 {
+font-weight: normal;
+}
+
+.wrapper p span {
+font-weight: bold;
+}
+
 /* USEFUL CLASSES */
 
 .leftalign {
@@ -404,3 +426,48 @@ color: #444;
 	
 }
 
+
+#secondsentence {
+    text-align: center;
+	color: #FFF;
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 4em;
+	margin-bottom: 5%;
+	margin-top:-100px;
+    -webkit-animation: fadein 10s; /* Safari and Chrome */
+       -moz-animation: fadein 10s; /* Firefox */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera */
+            animation: fadein 10s;
+         
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
