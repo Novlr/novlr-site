@@ -144,7 +144,10 @@ display: none;
 	font-weight: lighter;
 	color: #444;
 	line-height:1.2em;
-	text-align:center;
+	text-align:left;
+}
+.home .container {
+	text-align: center;
 }
 .container.grey {
 	background:#EFF0F0;
