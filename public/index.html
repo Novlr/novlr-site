@@ -74,7 +74,9 @@
 		<div class="container">
 			<div class="wrapper">
 				<h3 class="tablethide">Why Novlr?</h3>
-				<div class="product_example tablethide"><span class="texttyping"></span><br></div>
+				<span id="wordcount"></span>
+				<div class="product_example tablethide"><span class="texttyping" id="words"></span><br></div>
+				<script type='text/javascript'>var count = document.getElementById('words').innerHTML.split(' ').length; document.getElementById('wordcount').innerHTML=count;</script>
 				<div class="promoblock">
 					<h3>You won't lose work. Ever.</h3>
 					<p>We've all felt the pain of loss. Pain should generally be avoided. So we save everything, all the time, without you even needing to think about it. </p>

@@ -1,4 +1,8 @@
 novlr-site
 ==========
 
-The Novlr marketing sitee
+The Novlr marketing site
+
+## Install
+
+run `npm install`
