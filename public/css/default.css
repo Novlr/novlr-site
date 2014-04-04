@@ -218,6 +218,26 @@ background-size:cover;
 	margin-bottom: 2em;
 }
 
+/* Features page */
+
+
+.feature {
+	clear:both;
+	padding:100px 0;
+}
+
+.feature:nth-child(odd) img {
+	float:right;
+	padding-left:100px;
+}
+.feature:nth-child(even) img {
+	float:left;
+	padding-right:100px;
+}
+
+.feature:last-of-type {
+	margin-bottom:100px;
+}
 
 
 
