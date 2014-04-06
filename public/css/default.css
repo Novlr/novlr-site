@@ -10,13 +10,13 @@ body {
 
 a {
 text-decoration: none;
-color: #ABD1E2;
+color: #89C6DA;
 }
 
 h2 {
 font-weight: 600;
 color: #777;
-line-height:1.3em;
+line-height:1.2em;
 }
 
 
@@ -146,13 +146,20 @@ display: none;
 	line-height:1.2em;
 	text-align:left;
 }
+
 .home .container {
 	text-align: center;
 }
+
 .container.grey {
 	background:#EFF0F0;
 	box-shadow: 0 0 4px #d9d9d9;
 }
+
+.container.grey.featurespage {
+text-align:center;
+}
+
 .container .wrapper {
 	margin: 0 auto;
 	width:65%;
@@ -170,6 +177,7 @@ margin: 0 auto;
 margin: 0;
 padding: 0.5em 2em;
 } */
+
 .next_page {
 	margin: 5em 0 0;
 	overflow:hidden;
@@ -187,9 +195,69 @@ padding: 0.5em 2em;
 color:#ABD1E2;
 }
 
+div.novlrimage > img {
+max-width: 100%;
+margin-bottom: 10px;
+}
+
 
 /* Headers and paragraphs */
 
+#mc_embed_signup input.button {
+display: block;
+width: 35%;
+margin: 0 0 10px 0;
+min-width: 170px;
+}
+
+#mc_embed_signup .clear {
+clear: none;
+display: inline;
+float: left;
+}
+
+#mc_embed_signup input.email {
+float: left;
+}
+
+#mc_embed_signup form {
+display: block;
+position: relative;
+text-align: left;
+padding: 0px !important;
+overflow: hidden;
+}
+
+#mc_embed_signup {
+margin: 0 auto;
+width: 680px;
+}
+
+#inviteform #mc_embed_signup input.email, #inviteformtwo #mc_embed_signup input.email {
+display: block;
+text-indent: 5px;
+width: 435px;
+min-width: 130px;
+margin: 0px;
+height: 27px;
+font-size: 1.1em;
+padding: 8px 0 8px 20px;
+}
+
+#inviteformtwo #mc_embed_signup input.email {
+width:433px;
+}
+#inviteformtwo #mc_embed_signup form {
+border: 1px solid #ddd;
+}
+
+#mc_embed_signup input {
+border: none !important;
+}
+#mc-embedded-subscribe {
+height: 43px;
+font-size: 1.1em;
+}
 
 /* About page */
 
@@ -317,11 +385,12 @@ margin-right: 10px;
 .tryit {
 width: 225px;
 margin: 0 auto;
-padding: 15px 10px;
+padding: 13px 10px;
 color:#272933;
 background: #89c6da;
 /*shadow*/
-  	position:relative;       
+  	position:relative;
+  	height: 43px;       
 }
 .tryit span {
 	font-family: Roboto;
@@ -352,20 +421,22 @@ background: #89c6da;
 	}
 
 .tryit:hover {
-background: #FFF;
-color: #444;
+background: #89C6DA;
+color: #FFF;
+cursor: pointer;
 }
 
 
 .promoblock {
-	width: 25%;
-	margin: 0 4%;
+	width: 46%;
+	margin: 0 2%;
 	float: left;
-	font-size:18px;
-	text-align:left;
+	font-size: 18px;
+	text-align: left;
 }
+
 .promoblock h3 {
-	color:#ABD1E2;
+	color:#89C6DA;
 }
 
 h3 {
@@ -564,6 +635,23 @@ header {
 header .logo img {
 		margin-bottom: 40px;
 	}
+	#inviteformtwo #mc_embed_signup input.email {
+width: 298px;
+}
+
+#inviteform #mc_embed_signup input.email {
+width: 300px;
+}
+
+#mc_embed_signup {
+width: 520px;
+}	
+	
+.tryit {
+width: 200px;
+}
+
+
 }
 
 
@@ -611,8 +699,7 @@ header .logo img {
 	.tryit {
 		text-align:center;
 		width:100%;
-		padding: 15px 0;
-		margin-top:80px;
+
 	}
 
 	.next_page a {
@@ -637,8 +724,29 @@ header .logo img {
 	}
 	.mobilehide, div.mobilehide {
 		display:none;
-	}
+		}
 
+	#mc_embed_signup {
+		margin-top: 20px;
+		}
+		
+	#inviteform #mc_embed_signup input.email {
+		width: 170px;
+		/* float: left; */
+		}
+		
+	#inviteformtwo #mc_embed_signup input.email {
+		width: 168px;
+		}
+		
+	#mc-embedded-subscribe {
+		width: 130px;
+		}
+		
+	#mc_embed_signup {
+		width: 320px;
+		}
+			
 	/* supersmall phones */
 	@media (max-width: 403px) {
 		
