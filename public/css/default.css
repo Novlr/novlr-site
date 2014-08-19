@@ -331,7 +331,22 @@ footer p {
 	font-weight: lighter;
 	float: left;
 }
-
+footer .social {
+	float: left;
+}
+footer .login {
+	float: right;
+}
+footer .login a.button {
+	display: block;
+	background: #89C6DA;
+	color: #111;
+	padding: 6px 20px;
+	margin-right: 60px;
+}
+footer .login a.button:hover {
+	color: #fff;
+}
 footer .social ul {
 	display: inline-flex;
 	margin: 0;
