@@ -343,6 +343,7 @@ footer .login a.button {
 	color: #111;
 	padding: 6px 20px;
 	margin-right: 60px;
+	font-size: 13px;
 }
 footer .login a.button:hover {
 	color: #fff;
