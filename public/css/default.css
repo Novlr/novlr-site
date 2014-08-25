@@ -19,6 +19,11 @@ color: #777;
 line-height:1.2em;
 }
 
+h2 span {
+color: #89C6DA;
+text-transform: uppercase;
+}
+
 
 .fullimagewrap {
 	background: #272933;
@@ -385,6 +390,38 @@ margin-left: 40px;
 	width:32px;
 margin-right: 10px;
 }
+/* BETA page */
+.bugwidget {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+.bugwidget table {
+	font-size: 18px;
+}
+.bugwidget td .label {
+	padding: 5px 12px;
+	border-radius: 14px;
+}
+.bugwidget td .label-high {
+	background: #EEBFBF;
+}
+.bugwidget td .label-medium {
+	background: #FFDD9E;
+}
+.bugwidget td .label-low {
+	background: #DFF0D8;
+}
+.twitterwidget {
+	width: 50%;
+	float: right;
+}
+td {
+text-align: left;
+padding: 10px;
+}
+
+
 /*Typing stuff */
 
 #typed-cursor{
@@ -463,6 +500,7 @@ font-weight: normal;
 font-weight: bold;
 }
 
+
 #secondsentence {
     text-align: center;
 	color: #FFF;
@@ -512,7 +550,7 @@ font-weight: bold;
 /* USEFUL CLASSES */
 
 .leftalign {
-	text-align: left;
+	text-align: left !important;
 }
 .clear {
 	clear:both;
