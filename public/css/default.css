@@ -606,6 +606,10 @@ font-weight: bold;
 .container .wrapper {
 	min-width:700px;
 }
+.bugwidget, .twitterwidget {
+	width: 100%;
+}
+
 }
 
 /*  Max-widths  */
