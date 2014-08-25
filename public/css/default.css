@@ -12,7 +12,9 @@ a {
 text-decoration: none;
 color: #89C6DA;
 }
-
+a:hover {
+	border-bottom: 1px solid #89c6da;
+}
 h2 {
 font-weight: 600;
 color: #777;
@@ -205,6 +207,11 @@ max-width: 100%;
 margin-bottom: 10px;
 }
 
+.twittercards iframe {
+width: 40% !important;
+float: left;
+margin: 1% 4% !important;
+}
 
 /* Headers and paragraphs */
 
