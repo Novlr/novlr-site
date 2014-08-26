@@ -399,8 +399,6 @@ margin-right: 10px;
 }
 /* BETA page */
 .bugwidget {
-	width: 45%;
-	float: left;
 	margin-right: 5%;
 }
 .bugwidget table {
@@ -426,15 +424,14 @@ margin-right: 10px;
 td:nth-of-type(2), td:nth-of-type(3) {
 text-align: center;
 }
-.twitterwidget {
-	width: 50%;
-	float: right;
-}
 td {
 text-align: left;
 padding: 10px;
 }
-
+th {
+background: #EFF0F0;
+padding: 7px;
+}
 
 /*Typing stuff */
 
