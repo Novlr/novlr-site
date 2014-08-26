@@ -405,6 +405,7 @@ margin-right: 10px;
 }
 .bugwidget table {
 	font-size: 18px;
+	width: 100%;
 }
 .bugwidget td .label {
 	padding: 5px 12px;
@@ -418,6 +419,12 @@ margin-right: 10px;
 }
 .bugwidget td .label-low {
 	background: #DFF0D8;
+}
+.bugwidget td .label-fixed {
+	background: #EBEBEB;
+}
+td:nth-of-type(2), td:nth-of-type(3) {
+text-align: center;
 }
 .twitterwidget {
 	width: 50%;
