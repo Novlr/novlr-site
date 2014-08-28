@@ -398,6 +398,11 @@ margin-left: 40px;
 margin-right: 10px;
 }
 /* BETA page */
+.feature-overview {
+background: #ECF4F7;
+padding: 10px 20px;
+text-align: left;
+}
 .bugwidget {
 	margin-right: 5%;
 }
