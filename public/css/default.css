@@ -7,6 +7,11 @@ body {
 	margin:0 ;
 	height: 100%;
 }
+.half {
+width: 45%;
+float: left;
+margin-right: 5%;
+}
 
 a {
 text-decoration: none;
@@ -139,8 +144,20 @@ margin-bottom: 0.2em;
 line-height: 1em;
 display: none;
 }
-
-
+.middle {
+	width:680px;
+	margin:0 auto;
+}
+ul.half {
+	margin:0;
+	list-style-position: inside;
+	text-align: left;
+	width:44%;
+	padding-left: 0;
+}
+ul.half li {
+	padding: 5px 0;
+}
 /* BODY */
 
 .container {
@@ -171,6 +188,7 @@ text-align:center;
 	margin: 0 auto;
 	width:65%;
 	padding:60px 0;
+	overflow:hidden;
 }
 
 
@@ -689,6 +707,10 @@ font-weight: bold;
 }
 	.promoblock {
 	width: 100%;
+}
+.half {
+	width: 100%;
+	margin-right:0;
 }
 .container .wrapper {
 	width:80%;
