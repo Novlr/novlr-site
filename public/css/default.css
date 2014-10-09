@@ -1,5 +1,12 @@
 /* Default styles */
 
+/* preored page */
+.preorderwords {
+width: 60%;
+float: left;
+margin-right: 5%;
+}
+
 html {
 height: 100%;
 }
@@ -597,8 +604,28 @@ font-weight: bold;
 .mobilehide, .tablethide, div.tablethide, div.mobilehide{
 	display:block;
 }
+.thanks {
+padding: 10px;
+background: rgb(164, 238, 164);
+border: 2px solid rgb(90, 172, 90);
+}
 
+.cancel {
+	padding: 10px;
+background: rgb(243, 186, 186);
+border: 2px solid rgb(240, 137, 137);
+}
 
+.third.paypal {
+width: 27%;
+float: right;
+margin: 40px 4%;
+box-sizing: border-box;
+padding: 0 16px 30px;
+border: 2px solid #ccc;
+text-align: center;
+border-radius: 4px;
+}
 
 /* #################################################################################*/
 
@@ -631,6 +658,10 @@ font-weight: bold;
 .container .wrapper {
 	min-width:1050px;
 }
+.third.paypal {
+width: 30%;
+margin: 40px 2%;
+}
 }
 
 
@@ -655,6 +686,10 @@ font-weight: bold;
 		background-size: contain;
 		font-size: 0.7em;
 		line-height: 1.6;
+	}
+	.third.paypal {
+	width: 35%;
+	margin: 40px 0%;
 	}
 	.feature {
 		clear: both;
@@ -681,6 +716,20 @@ font-weight: bold;
 
 
 }
+@media (max-width: 1150px) {
+.preorderwords {
+	float:none;
+	width: 100%;
+}
+.third.paypal {
+	display: block;
+	float: none;
+	padding: 0 26px 30px;
+	margin: 30px auto;
+	width: 42%;
+}
+}
+
 @media (max-width: 1024px) {
 	
 	h1, #secondsentence{
@@ -746,8 +795,17 @@ width: 520px;
 .tryit {
 width: 200px;
 }
+.third.paypal {
+		width: 52%;
+}
+
+}
 
 
+@media (max-width: 560px) {
+.third.paypal {
+		width: 100%;
+}
 }
 
 
