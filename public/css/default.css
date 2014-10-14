@@ -6,7 +6,9 @@ width: 60%;
 float: left;
 margin-right: 5%;
 }
-
+.fontsmall {
+	font-size: 14px;
+}
 html {
 height: 100%;
 }
