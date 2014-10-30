@@ -628,6 +628,20 @@ border: 2px solid #ccc;
 text-align: center;
 border-radius: 4px;
 }
+.button {
+	padding: 13px 40px;
+	color: #272933;
+	background: #89c6da;
+	position: relative;
+	font-family: oxygen;
+	font-size: 20px;
+	margin: 0 auto;
+	display: table;
+}
+a.button:hover {
+	text-decoration: none;
+	border-bottom: none;
+}
 
 /* #################################################################################*/
 
